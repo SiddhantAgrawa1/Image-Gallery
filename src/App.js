@@ -32,7 +32,7 @@ export default function App() {
       hasMore={true}
       loader={<h4>Loading...</h4>} >
 
-      <PhotoAlbum layout="masonry" photos={Photos} />
+      <PhotoAlbum layout="rows" photos={Photos} />
 
     </InfiniteScroll>
   );
